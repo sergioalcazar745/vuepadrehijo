@@ -1,15 +1,17 @@
 <template>
-  <PadreComic/>
+  <MenuComponent/>
+  <hr/>
+  <router-view></router-view>
 </template>
 
 <script>
-import PadreComic from './components/PadreComic.vue'
+import MenuComponent from './components/Menu.vue'
 
 export default {
   name: 'App',
   components: {
-    PadreComic
-  }
+    MenuComponent
+  },
 }
 </script>
 
